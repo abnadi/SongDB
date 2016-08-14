@@ -22,9 +22,10 @@
   </div>
 
   <div class="field">
-    <%= f.label :artist_id %>
-    <%= f.artist_id_field :artist_id %>
+    <%= f.label :artist %><br>
+    <%= f.collection_select :artist_id, Artist.all, :id, :name %>
   </div>
+
 
   <div class="actions">
     <%= f.submit %>
