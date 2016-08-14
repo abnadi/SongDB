@@ -5,11 +5,7 @@ class SongsController < ApplicationController
   # GET /songs.json
   def index
     @songs = Song.all
-<<<<<<< HEAD
     @artists = Artist.all
-=======
-    @artist = Artist.all
->>>>>>> master
   end
 
   # GET /songs/1

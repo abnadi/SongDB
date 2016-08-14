@@ -18,6 +18,7 @@ lipps = Artist.create( name: "lipps inc", country: "US" )
 parlemaint = Artist.create( name: "parliament", country: "US" )
 jamesbrown = Artist.create( name: "james brown", country: "US" )
 boney = Artist.create( name: "boney m", country: "Germany" )
+bombers = Artist.create( name: "Bombers", country: "Canada" )
 
 Song.delete_all
 
@@ -36,3 +37,4 @@ Song.create( title: "Make it Funky pt2", year: 1971, artist: jamesbrown )
 Song.create( title: "Make it Funky pt3", year: 1972, artist: jamesbrown )
 Song.create( title: "Make it Funky pt4", year: 1972, artist: jamesbrown )
 Song.create( title: "Daddy Cool", year: 1976, artist: boney )
+Song.create( title: "The Mexican", year: 1976, artist: bombers ) 
